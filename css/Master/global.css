@@ -1,0 +1,38 @@
+
+/* CORES PRINCIPAIS: #FF862D & #B97A56*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    overflow-y: scroll; /*barras de rolagem sempre visíveis*/
+}
+
+main{
+    background-color: #fed7b7;
+}
+
+header {
+    background-color: #ff862d;
+}
+
+/* SCROLLBAR */ 
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    border-radius: 7px;
+    background-color: #b97a56 ;
+} /*Background da scrollbar. Não foi possível remover a estrutura padrão*/
+::-webkit-scrollbar-thumb{
+    border-radius: 7px;
+    background-color: #ff862d;
+}

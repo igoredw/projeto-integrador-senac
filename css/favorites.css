@@ -1,0 +1,23 @@
+
+#Favoritos{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 100px;
+    color: #040404;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#Botão{
+    background-color: coral;
+    color: #fff;
+    padding: 10px 100px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+
+}
+#Botão:hover{
+    background-color: #bc7c53;
+}

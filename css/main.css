@@ -1,0 +1,99 @@
+/* MAIN - HOME */
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+
+.card-product {
+    grid-column: 1/2;
+}
+
+.card-hospital {
+    grid-column: 2/2;
+}
+
+.card-product,
+.card-hospital {
+    padding: 2%;
+}
+
+.card-text-hospital,
+.card-product {
+    border-radius: 4%;
+    background-color: #f2994a;
+    text-align: center;
+    padding: 2%;
+    width: 100%;
+}
+
+/* IMAGE */
+.card-one-image {
+    grid-area: 1/2;
+    max-width: 100%;
+}
+
+.card-two-image {
+    grid-area: 2/1;
+    display: grid;
+    place-items: center;
+}
+
+.image-card-hospital-two {
+    width: 75%;
+}
+
+.image-card-product-one {
+    width: 88%;
+}
+
+
+/* Posicionamento text */
+.card-text-product h1,
+.card-text-hospital h2 {
+    margin: 2%;
+}
+
+.card-text-product p {
+    padding-bottom: 2%;
+}
+
+.card-text-hospital p {
+    padding-bottom: 2%;
+}
+
+/* BUTTONS */
+
+.card-button-home {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    border-style: none;
+    border-radius: 5%;
+    background-color: #fed7b7;
+}
+.card-button-home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+    transform: skewX(-15deg);
+    transition: all 0.5s ease;
+}
+.card-button-home:hover::before {
+    left: 103%;
+}
+.card-button-home:hover .card-button-home:focus {
+    background-color: #fff;
+    color: #333;
+}
+

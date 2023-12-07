@@ -1,0 +1,45 @@
+/* PÁGINA PRODUTOS */
+.h-product{
+    padding: 5%;
+    text-align: center;
+}
+
+.product-type-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    padding: 5%;
+}
+
+.product-type, .product-type-card-two, .product-type-card-three, .product-type-card-four {
+    width: 95%;
+    height: 100%;
+    border-style: none;
+    border-radius: 5%;
+    padding: 20px;
+    text-align: center;
+    background-color: #b97a56;
+    max-width: 100%;
+    text-align: center;
+}
+
+.product-type img,  .product-type-card-two img, .product-type-card-three img, .product-type-card-four img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+} /*para as img obedererem o tamanho da div pai*/
+
+
+.botao-product-type{
+    background-color: #ff862d;
+    margin-top: 8%;
+    border-style: none;
+    border-radius: 5%;
+    max-width: 100%;
+}
+
+.botao-product-type:hover{
+    background-color: #d4691b;
+    transition-delay: 2s;
+}
+

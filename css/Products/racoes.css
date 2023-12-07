@@ -1,0 +1,22 @@
+.product-h-text{
+    padding: 5%;
+    text-align: center;
+}
+
+#product-page-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 5%;
+}
+
+.produto {
+    border-style: none;
+    padding: 20px;
+    text-align: center;
+    background-color: #F56F45;
+}
+
+.h-product{
+grid-template-rows: repeat(5,1fr);
+}
