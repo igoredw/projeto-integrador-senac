@@ -1,4 +1,4 @@
-.product-h-text{
+.product-h-text {
     padding: 5%;
     text-align: center;
 }
@@ -12,11 +12,15 @@
 
 .produto {
     border-style: none;
-    padding: 20px;
     text-align: center;
     background-color: #F56F45;
+    padding: 5%;
 }
 
-.h-product{
-grid-template-rows: repeat(5,1fr);
+.h-product {
+    grid-template-rows: repeat(5, 1fr);
+}
+
+#main-products img{
+    max-width: 100%;
 }
